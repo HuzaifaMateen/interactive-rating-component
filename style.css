@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.container{
+    background-color: #1f2630;
+    width: 370px;
+    height: 370px;
+    border-radius: 30px;
+    display: block;
+}
+#image-btn{
+    border-radius: 100%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #272e38;
+}
+#image-btn img{
+    margin-top: 3px;
+}
+
+h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    width: 330px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: .9rem;
+    color: hsl(216, 12%, 54%);
+    margin-top: 10px;
+}
+.btn-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn1, #btn2, #btn3, #btn4, #btn5{
+    border-radius: 100%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #272e38;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: 1s;
+}
+#btn2:hover, #btn4:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+#btn1:hover, #btn3:hover, #btn5:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+#submit{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 1s;
+}
+#submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: #e78338;
+}
+.wrapper{
+    background-color: #1f2630;
+    width: 370px;
+    height: 370px;
+    border-radius: 30px;
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.heading{
+    background-color: #252d37;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+#rating{
+    font-size: .8rem;
+    text-align: left;
+    color: #b97a50;
+    font-weight: 400;
+    padding-top: 7px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    text-align: center;
+    font-size: .9rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: hsl(216, 12%, 54%);
+    margin-top: 10px;
+}
